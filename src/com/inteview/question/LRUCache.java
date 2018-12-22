@@ -1,4 +1,4 @@
-package com.company.upwork;
+package com.inteview.question;
 
 
 import java.util.HashMap;
