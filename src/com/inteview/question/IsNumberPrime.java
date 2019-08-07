@@ -4,8 +4,8 @@ public class IsNumberPrime {
 
 
     public static void main(String a[]) {
-        boolean isPrime = isPrimeNumber(347);
-        System.out.println(" Is PrimeNumber :: " + isPrime);
+        boolean is = isPrimeNumber(347);
+        System.out.println(" Is PrimeNumber :: " + is);
     }
 
     private static boolean isPrimeNumber(int n) {
