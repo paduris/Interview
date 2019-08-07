@@ -2,7 +2,15 @@ package com.inteview.question;
 
 public class TrimBinarySearchTree {
 
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
 
+        TreeNode(int x) {
+            val = x;
+        }
+    }
     public static void main(String[] a) {
 
 
@@ -31,12 +39,3 @@ public class TrimBinarySearchTree {
 
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
