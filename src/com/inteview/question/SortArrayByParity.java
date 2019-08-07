@@ -3,7 +3,7 @@ package com.inteview.question;
 public class SortArrayByParity {
     public static void main(String[] a) {
 
-        int k[] = {1,0,3};
+        int[] k = {1,0,3};
 
         sortByParity(k);
     }

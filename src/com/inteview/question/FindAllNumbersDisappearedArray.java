@@ -22,7 +22,7 @@ public class FindAllNumbersDisappearedArray {
 
     public static void main(String[] a) {
 
-        int values[] = {4,3,2,7,8,2,3,1};
+        int[] values = {4,3,2,7,8,2,3,1};
 
         FindAllNumbersDisappearedArray obj = new FindAllNumbersDisappearedArray();
         obj.findDisappearedNumbers(values).stream().forEach(v -> System.out.println(v));

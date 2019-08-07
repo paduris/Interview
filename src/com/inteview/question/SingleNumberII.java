@@ -15,7 +15,7 @@ public class SingleNumberII {
 
     public static void main (String []a)
     {
-        int num []= {2,2,3,2};
+        int[] num = {2,2,3,2};
     }
 
     public int singleNumber(int[] nums) {

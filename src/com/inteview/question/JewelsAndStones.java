@@ -11,7 +11,7 @@ public class JewelsAndStones {
 
     public static void main(String[] a) {
         JewelsAndStones j = new JewelsAndStones();
-        System.out.println(j.numJewelsInStones("aAc", "aAAbbbb"));
+        System.out.println(numJewelsInStones("aAc", "aAAbbbb"));
     }
 
     public static int numJewelsInStones(String J, String S) {

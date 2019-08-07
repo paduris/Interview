@@ -7,7 +7,7 @@ public class UniqueEmailAddress {
 
 
     public static void main(String[] a) {
-        String emails[] = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
+        String[] emails = {"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
 
         // String v = "test.email+alex@leetcode.com";
 
@@ -22,9 +22,9 @@ public class UniqueEmailAddress {
 
         for (int i = 0; i < emails.length; i++) {
 
-            String em[] = emails[i].split("@");
+            String[] em = emails[i].split("@");
 
-            char c[] = em[0].toCharArray();
+            char[] c = em[0].toCharArray();
 
             StringBuilder builder = new StringBuilder();
             for (int j = 0; j < c.length; j++) {

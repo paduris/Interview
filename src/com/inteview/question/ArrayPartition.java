@@ -6,7 +6,7 @@ public class ArrayPartition {
     public static void main (String []a)
     {
 
-        int k[] = {1,4,3,2};
+        int[] k = {1,4,3,2};
         System.out.println(arrayPairSum(k));
     }
 

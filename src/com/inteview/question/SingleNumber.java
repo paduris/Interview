@@ -8,7 +8,7 @@ public class SingleNumber {
     {
             //Input: [4,1,2,1,2]
 
-        int elements [] = {2,2,3,2};
+        int[] elements = {2,2,3,2};
 
         SingleNumber number  = new SingleNumber();
         System.out.println(number.singleNumber(elements));

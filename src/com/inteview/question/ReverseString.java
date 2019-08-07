@@ -5,7 +5,7 @@ public class ReverseString {
     {
         String s ="hello";
 
-        char c [] = s.toCharArray();
+        char[] c = s.toCharArray();
         int start =0;
         int end=c.length-1;
         while(start < end)

@@ -7,7 +7,7 @@ public class ToLowerCase {
         char[] l = val.toCharArray();
         for (int i=0; i<l.length;i++) {
             char c = l[i];
-            int n=(int)c;
+            int n= c;
             if(n <91 && n > 65){
                 n = n+32;
             }

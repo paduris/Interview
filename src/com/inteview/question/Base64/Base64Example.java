@@ -2,6 +2,7 @@ package com.inteview.question.Base64;
 
 import sun.security.provider.MD5;
 
+import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.util.Base64;
 
@@ -32,7 +33,7 @@ public class Base64Example {
                     "\n" +
                     "Another solution could be to append user id (which should be unique) to the input URL. However, if the user has not signed in, we would have to ask the user to choose a uniqueness key. Even after this, if we have a conflict, we have to keep generating a key until we get a unique one.";
 
-            byte[] bytesOfMessage = yourString.getBytes("UTF-8");
+            byte[] bytesOfMessage = yourString.getBytes(StandardCharsets.UTF_8);
 
             MessageDigest md = MessageDigest.getInstance("MD5");
             byte[] thedigest = md.digest(bytesOfMessage);

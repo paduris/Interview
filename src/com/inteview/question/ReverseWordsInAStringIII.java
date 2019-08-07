@@ -19,7 +19,7 @@ public class ReverseWordsInAStringIII {
         StringBuilder builder = new StringBuilder();
         String[] revWords = s.split(" ");
         for (int k = 0; k < revWords.length; k++) {
-            char c[] = revWords[k].toCharArray();
+            char[] c = revWords[k].toCharArray();
             if(k>0)       builder.append(" ");
             for (int i = c.length - 1; i != -1 && i < c.length; i--) {
                 builder.append(c[i]);

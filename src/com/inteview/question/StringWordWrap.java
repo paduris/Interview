@@ -1,4 +1,4 @@
-package com.kafka.experiments.consumer;
+package com.inteview.question;
 
 /*
  * To execute Java, please define "static void main" on a class
@@ -68,7 +68,7 @@ class StringWordWrap {
     public static String wordWrap1(String in, int lim) {
         StringBuilder builder = new StringBuilder();
 
-        String words[] = in.split(" ");
+        String[] words = in.split(" ");
 
         int currentLineLength = 0;
 

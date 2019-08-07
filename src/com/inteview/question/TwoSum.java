@@ -23,11 +23,11 @@ public class TwoSum {
 
     public static void main (String []a)  throws  Exception
     {
-        int numbers [] = {2,7,11,15};
+        int[] numbers = {2,7,11,15};
         int target = 17;
 
         TwoSum twosum = new TwoSum();
-        int indices[] = twosum.twoSumHashMap(numbers, target);
+        int[] indices = twosum.twoSumHashMap(numbers, target);
 
         System.out.println("Indices :: " + indices[0] + " " + indices[1]);
 

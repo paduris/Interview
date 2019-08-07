@@ -15,6 +15,8 @@ public class ComparatorExample {
         strList.add("a1 ");
 
 
+
+
         Collections.sort(strList, (a, b) -> {
              a = a.substring(a.indexOf(" ")+1);
             b = b.substring(b.indexOf(" ")+1);
